@@ -40,7 +40,7 @@ dependencies = [
 [[package]]
 name = "bls12_381"
 version = "0.8.0"
-source = "git+https://github.com/zkMIPS-patches/bls12_381?branch=patch-0.8.0#7452c9fc2403cdee80b117ecb8931b7cf608d6ce"
+source = "git+https://github.com/ziren-patches/bls12_381?branch=patch-0.8.0#7452c9fc2403cdee80b117ecb8931b7cf608d6ce"
 dependencies = [
  "cfg-if",
  "ff",
@@ -360,7 +360,7 @@ checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
 [[package]]
 name = "p3-dft"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "itertools",
  "p3-field",
@@ -373,7 +373,7 @@ dependencies = [
 [[package]]
 name = "p3-field"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "itertools",
  "num-bigint 0.4.6",
@@ -390,7 +390,7 @@ dependencies = [
 [[package]]
 name = "p3-koala-bear"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "p3-field",
  "p3-mds",
@@ -404,7 +404,7 @@ dependencies = [
 [[package]]
 name = "p3-matrix"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "itertools",
  "p3-field",
@@ -419,12 +419,12 @@ dependencies = [
 [[package]]
 name = "p3-maybe-rayon"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 
 [[package]]
 name = "p3-mds"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "itertools",
  "p3-dft",
@@ -438,7 +438,7 @@ dependencies = [
 [[package]]
 name = "p3-monty-31"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "itertools",
  "num-bigint 0.4.6",
@@ -460,7 +460,7 @@ dependencies = [
 [[package]]
 name = "p3-poseidon2"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "gcd",
  "p3-field",
@@ -473,7 +473,7 @@ dependencies = [
 [[package]]
 name = "p3-symmetric"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "itertools",
  "p3-field",
@@ -483,7 +483,7 @@ dependencies = [
 [[package]]
 name = "p3-util"
 version = "0.1.0"
-source = "git+https://github.com/zkMIPS/Plonky3#93967fce8949d2275c06fd91e9f495a35418d68d"
+source = "git+https://github.com/zkMIPS/Plonky3#79f986caf008ee3ae455474f42100cb7227219f3"
 dependencies = [
  "lock_api",
  "serde",
@@ -867,7 +867,7 @@ dependencies = [
 [[package]]
 name = "zkm-lib"
 version = "1.0.0"
-source = "git+https://github.com/felicityin/zkMIPS?branch=upgrade-deps#5745002a9c77eecda12414c9f242d962dd532b08"
+source = "git+https://github.com/felicityin/zkMIPS.git?branch=upgrade-deps#67626a07502b8e4f8a3854841d485058a003df0f"
 dependencies = [
  "bincode",
  "cfg-if",
@@ -879,7 +879,7 @@ dependencies = [
 [[package]]
 name = "zkm-primitives"
 version = "1.0.0"
-source = "git+https://github.com/felicityin/zkMIPS?branch=upgrade-deps#5745002a9c77eecda12414c9f242d962dd532b08"
+source = "git+https://github.com/felicityin/zkMIPS.git?branch=upgrade-deps#67626a07502b8e4f8a3854841d485058a003df0f"
 dependencies = [
  "bincode",
  "hex",
